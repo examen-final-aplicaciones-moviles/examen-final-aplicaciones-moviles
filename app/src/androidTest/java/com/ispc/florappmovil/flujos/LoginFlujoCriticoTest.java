@@ -23,13 +23,13 @@ import org.junit.runner.RunWith;
  * Antes de ejecutar:
  *  - Celular conectado por USB
  *  - Backend Django corriendo (runserver 0.0.0.0:8000)
- *  - Usuario de prueba registrado: docente@florapp.com / UserPass123
+ *  - Usuario de prueba registrado: profe-fernandez@gmail.com / userKia12?
  */
 @RunWith(AndroidJUnit4.class)
 public class LoginFlujoCriticoTest {
 
-    private static final String EMAIL = "docente@florapp.com";
-    private static final String PASSWORD = "UserPass123";
+    private static final String EMAIL = "profe-fernandez@gmail.com";
+    private static final String PASSWORD = "userKia12?";
 
     private ActivityScenario<IngresoActivity> escenario;
 
